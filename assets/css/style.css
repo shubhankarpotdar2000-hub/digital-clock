@@ -1,0 +1,48 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+ /* by default position of body is relative if we gave any position to child */
+body{
+	background-color: #000;
+	color: #17d4fe;
+	border: 5px solid red;
+	
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.digitalClock{
+	font-size: 68px;
+	border: 2px solid black;
+	text-shadow: 10px 10px 20px #17d4fe; /* x obset , y obset, blour/spread */
+	box-shadow: 10px 10px 20px red;
+	font-family: "Orbitron", sans-serif;
+}
+
+
+/* for taking content in center currently we have two steps 
+first one is position :absolute;top,left:50%, transform: translate(-50%, -50%);
+
+another one is to using display : flex; , justify-content: center; , align- items:center;
+it is used in parent of object which we want to take at center;
+
+*/ 
+
+/*.digitalClock{
+	font-size: 68px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	border:2px solid orange;
+	transform: translate(-50%, -50%);
+} */
+
+
+
+ /* repo create , branch create, mearge branches */ 
+ /* adding multiple projects in one repo is known as mono repo; */ 
+ 
